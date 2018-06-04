@@ -3,44 +3,68 @@
 <head>
   <title>Tufa.ai</title>
 
-  <link rel="icon" type="image/png" href="/images/benjamin-crouzier.png" />
+  <link rel="icon" type="image/png" href="/images/benjamin-crouzier.png"/>
   <style>
-.avatar-image {
-    max-width: 80px;
-    border-radius: 50%;
-    padding: 5px;
-    border: 1px solid #f2f3f3;
-}
+    .avatar-image {
+      max-width: 80px;
+      border-radius: 50%;
+      padding: 5px;
+      border: 1px solid #f2f3f3;
+    }
 
-.body-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-}
+    .body-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-.center {
-    margin: 0 auto;
-    text-align: center;
-}
+    .center {
+      margin: 0 auto;
+      text-align: center;
+    }
 
-body {
-    font-family: "Noto Serif", serif;
-    font-size: 18px;
-}
+    body {
+      font-family: "Noto Serif", serif;
+      font-size: 18px;
+    }
 
-p {
-    line-height: 1.65em;
-}
+    p {
+      line-height: 1.65em;
+    }
 
-h1 {
-    font-size: 19px;
-}
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Open Sans", sans-serif;
+      color: #4A4A4A;
+      letter-spacing: -1px;
+    }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans", sans-serif;
-    color: #4A4A4A;
-    letter-spacing: -1px;
-}
+    #team_container .ai_superstar {
+      width: 300px;
+      text-align: center;
+      float: left;
+      margin-bottom: 40px;
+    }
+
+    #team_container .ai_superstar .image img {
+      border-radius: 50%;
+    }
+
+    #team_container .ai_superstar .bio {
+      font-size: 17px;
+    }
+
+    #team_container .ai_superstar .bio h4 {
+      margin: 0px;
+      font-size: 20px;
+    }
+
+    #team_container .ai_superstar h4 a {
+      color: #4A4A4A;
+    }
+
+    #team_container .ai_superstar .bio p {
+      margin: 0;
+    }
 
   </style>
   <meta charset="utf-8">
@@ -49,8 +73,198 @@ h1, h2, h3, h4, h5, h6 {
 
 <body>
 <div class="body-container">
-  <h2>Tufa.ai</h2>
-  You must gather your party before venturing forth
+  <h1 style="text-align: center">Tufa.ai</h1>
+
+  <div id="foto" style="text-align: center;">
+    <img style="height: 390px" src="/images/pull_this_off.png"/>
+  </div>
+
+  <h2>About</h2>
+  <p>
+    We are a small team of phds and computer scientists embarking on a mission to try and make some
+    progress in AI research. We acknowledge the difficulty of the endeavor but we believe that dedicated
+    and sustained effort can go a long way.
+  </p>
+
+  <h2>Long term mission</h2>
+  <p>
+    Conduct AGI capability and safety research in order to automate and improve most of intellectual labor.
+  </p>
+
+  <h2>Short term mission</h2>
+  <p>
+    Develop algorithmic trading algorithms to provide funding for the long term mission.
+  </p>
+  <p>
+    <i>
+      We are well aware that AGI research is very ambitious, so we need to build a team, culture and environment
+      that is financially sustainable in order to provide for a long-term dedicated research effort.
+    </i>
+  </p>
+
+  <h2>Research themes</h2>
+  <p>
+    Research directions are not clearly defined yet, but they will include areas such as Deep Learning,
+    Probabilistic Programming and Genetic Algorithms.
+  </p>
+
+  <h2>Funding</h2>
+  <p>
+    Tufa will be self-funded in the first few months, and then funded with algorithmic trading.
+  </p>
+
+  <h2 id="team">Team</h2>
+  <p>
+    (The team may change slightly at incorporation, * indicates uncertainty)
+  </p>
+
+  <div id="team_container">
+
+    <div class="ai_superstar">
+      <div class="image">
+        <a href="https://www.linkedin.com/in/crouzierbenjamin/">
+          <img width="90" height="90"
+               src="/images/benjamin_crouzier.jpeg">
+        </a>
+      </div>
+      <div class="bio">
+        <h4>
+          <a href="https://www.linkedin.com/in/crouzierbenjamin/">
+            Benjamin Crouzier
+          </a>
+        </h4>
+        <p>Co-founder, Engineering and Research</p>
+      </div>
+    </div>
+
+    <div class="ai_superstar">
+      <div class="image">
+        <a href="https://www.linkedin.com/in/paul-armand-assus-95719052/">
+          <img width="90" height="90"
+               src="/images/poilon.jpeg">
+        </a>
+      </div>
+      <div class="bio">
+        <h4>
+          <a href="https://www.linkedin.com/in/paul-armand-assus-95719052/">
+            Paul-Armand Assus
+          </a>
+        </h4>
+        <p>Co-founder, Engineering and Research</p>
+      </div>
+    </div>
+
+    <div class="ai_superstar">
+      <div class="image">
+        <a href="https://www.linkedin.com/in/antoine-crouzier-78aa6b5b/">
+          <img width="90" height="90"
+               src="/images/antoine.jpeg">
+        </a>
+      </div>
+      <div class="bio">
+        <h4>
+          <a href="https://www.linkedin.com/in/antoine-crouzier-78aa6b5b/">
+            Antoine Crouzier
+          </a>
+        </h4>
+        <p>Co-founder*, Engineering and Research</p>
+      </div>
+    </div>
+
+    <div class="ai_superstar">
+      <div class="image">
+        <a href="https://www.linkedin.com/in/gearnode/">
+          <img width="90" height="90"
+               src="/images/gearnode.jpeg">
+        </a>
+      </div>
+      <div class="bio">
+        <h4>
+          <a href="https://www.linkedin.com/in/gearnode/">Bryan Frimim</a>
+        </h4>
+        <p>Co-founder*, Engineering and Research</p>
+      </div>
+    </div>
+
+    <div class="ai_superstar">
+      <div class="image">
+        <img width="90" height="90"
+             src="/images/dany.png">
+      </div>
+      <div class="bio">
+        <h4>Dany V</h4>
+        <p>Co-founder*, Engineering and Research</p>
+      </div>
+    </div>
+
+    <div style="clear:both"></div>
+
+
+  </div>
+
+
+  <h2>Careers</h2>
+  <p>
+    We are not actively recruiting right now, but if you are curious, ambitious and willing to learn,
+    please get in touch.<br/>
+
+    What we look for:
+  <ul>
+    <li>
+      Proficiency in maths (in particular differential calculus, linear algebra and optimization),
+      statistics and computer science
+    </li>
+    <li>
+      Willingness to learn, self discipline, and good work ethic
+    </li>
+    <li>
+      Integrity and intellectual honesty
+    </li>
+    <li>
+      Perseverance and resourcefulness when things are not working
+    </li>
+    <li>
+      A belief that AI capability/safety are among the most impactful areas of research
+    </li>
+  </ul>
+
+  </p>
+
+  <h2>Values</h2>
+  <p>
+    The primary motivation for us to embark in such an adventure is a strong desire to know more about intelligence,
+    so we value
+    curiosity above all. Because the difficulty of making progress in the field of AI is so great, we
+    also value ambition and perseverance. And because research is plagued with many dead ends, we pay
+    close attention to boredom: it can be seen a strong regularisation mechanism telling us where not to go.
+  </p>
+
+  <h2>What's up with the name Tufa ?</h2>
+  <p>
+    Tufa is a made up visual concept, introduced by Josh Tenenbaum, to illustrate the problem of
+    few-shot learning. You can find an explanation of it
+    <a href="https://youtu.be/2WQO9e5Mdj4?t=31m40s">in this lecture</a> (starts at 31m40s).
+    Because the problem of few-shot generalization is interesting and Tufa is a good illustration of it, we ripped off
+    the name.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    b.crouzier at gmail dot com
+  </p>
+  <p>
+    Our github organisation is here:
+    <a href="https://github.com/tufa">
+      github.com/tufa
+    </a>
+  </p>
+  <p>
+    The code for this site is open-source and can be found here:
+    <a href="https://github.com/tufa/tufa.ai">
+      github.com/tufa/tufa.ai
+    </a>
+    
+  </p>
 </div>
 </body>
 </html>
